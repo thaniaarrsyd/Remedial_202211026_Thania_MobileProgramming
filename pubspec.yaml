@@ -1,0 +1,34 @@
+name: remedial_202211026_thania_mobileprogramming
+description: "A new Flutter project for Mobile Programming Quiz."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^8.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Konfigurasi Aset Gambar (jika nanti Anda menambahkan gambar)
+  # assets:
+  #   - assets/images/
+
+  # Konfigurasi Font Poppins untuk Thania
+  #fonts:
+  #  - family: Poppins
+  #    fonts:
+  #      - asset: assets/fonts/Poppins-Regular.ttf
+  #      - asset: assets/fonts/Poppins-Bold.ttf
+  #       weight: 700
